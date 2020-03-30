@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+    <ion-toolbar color="dark">
+        <ion-buttons slot="primary">
+            <ion-button color="danger" (click)="addContact()"> + </ion-button>
+        </ion-buttons>
+        <ion-title>Contacts</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-list>
+        <!-- <ion-item *ngFor='let contact of contacts'>{{ contact.firstName }} {{ contact.lastName }}</ion-item> -->
+
+    </ion-list>
+
+    <ion-grid>
+        <ion-row>
+            <ion-col float-left size="10">
+
+            </ion-col>
+
+           <ion-col float-right text-right>
+                <!-- <a (click)="presentModal()">Edit</a> -->
+            </ion-col>
+
+        </ion-row>
+    </ion-grid>
+</ion-content>
