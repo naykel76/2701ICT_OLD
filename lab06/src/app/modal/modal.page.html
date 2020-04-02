@@ -1,9 +1,32 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>modal</ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-title>Create Contact</ion-title>
+        <!-- <ion-buttons slot="end">
+            <ion-button (click)="closeModal()">Save & Close</ion-button>
+        </ion-buttons> -->
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
+    <ion-list>
+        <ion-item>
+            <ion-label>First Name</ion-label>
+            <ion-input type="text" [(ngModel)]="firstName" name="firstName"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Last Name</ion-label>
+            <ion-input type="text" [(ngModel)]="lastName" name="lastName"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Email</ion-label>
+            <ion-input type="email" [(ngModel)]="email" name="email"></ion-input>
+        </ion-item>
+    </ion-list>
+
 </ion-content>
+
+<ion-footer>
+    <ion-button expand="full" (click)="closeModal()"> {{ addEditBtn }} </ion-button>
+</ion-footer>
+
