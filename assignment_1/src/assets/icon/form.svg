@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
-<g>
-	<path d="M2.177,0v24h19.646V0H2.177z M9.203,1.406h5.594v1.891H9.203V1.406z M20.417,22.594H3.583V1.406h4.214
-		v3.297h8.406V1.406h4.214V22.594z"/>
-	<rect x="9.133" y="7.297" width="8.617" height="1.406"/>
-	<rect x="6.25" y="7.297" width="1.477" height="1.406"/>
-	<rect x="9.133" y="10.297" width="8.617" height="1.406"/>
-	<rect x="6.25" y="10.297" width="1.477" height="1.406"/>
-	<rect x="6.25" y="13.297" width="1.477" height="1.406"/>
-	<rect x="9.133" y="13.297" width="8.617" height="1.406"/>
-	<rect x="6.25" y="17.797" width="3.75" height="1.406"/>
-	<polygon points="14,18.506 12.997,17.503 12.003,18.497 14,20.494 16.997,17.497 16.003,16.503 	"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M2.177 0v24h19.646V0H2.177zm7.026 1.406h5.594v1.891H9.203V1.406zm11.214 21.188H3.583V1.406h4.214v3.297h8.406V1.406h4.214v21.188z"/><path d="M9.133 7.297h8.617v1.406H9.133zM6.25 7.297h1.477v1.406H6.25zM9.133 10.297h8.617v1.406H9.133zM6.25 10.297h1.477v1.406H6.25zM6.25 13.297h1.477v1.406H6.25zM9.133 13.297h8.617v1.406H9.133zM6.25 17.797H10v1.406H6.25zM14 18.506l-1.003-1.003-.994.994L14 20.494l2.997-2.997-.994-.994z"/></svg>

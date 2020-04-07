@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+    <ion-toolbar color="dark">
+        <ion-buttons slot="primary">
+
+            <ion-button (click)="addContact()">
+                <ion-icon name="add"></ion-icon>
+            </ion-button>
+
+        </ion-buttons>
+        <ion-title>Contacts</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+    <ion-list>
+
+        <ion-item-sliding *ngFor='let contact of contactsArr; index as i'>
+
+            <ion-item>
+                <ion-label>{{ contact.firstName }} {{ contact.lastName }}</ion-label>
+            </ion-item>
+
+            <ion-item-options side="end">
+                <ion-item-option (click)="editContact(i)">Edit</ion-item-option>
+                <ion-item-option color="danger" (click)="deleteContact(i)">Delete</ion-item-option>
+            </ion-item-options>
+
+        </ion-item-sliding>
+
+    </ion-list>
+
+</ion-content>
+
