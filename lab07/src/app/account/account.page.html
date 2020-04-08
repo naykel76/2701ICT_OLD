@@ -9,13 +9,37 @@
 
 <ion-content>
     <ion-content padding>
+
         <ion-list>
             <ion-item>
+                <h2>{{ username }}</h2>
+            </ion-item>
+            <ion-item *ngFor="let user of users" (click)="displayCurrent(user)">
+                <ion-thumbnail>
+                    <img [src]="user.imgPath" alt="">
+                </ion-thumbnail>
+                <ion-label>{{ user.name }}</ion-label>
+            </ion-item>
+
+            <!-- <div *ngIf="selectedHero">
+
+                <h2>{{selectedHero.name | uppercase}} Details</h2>
+                <div><span>id: </span>{{selectedHero.id}}</div>
+                <div>
+                  <label>name:
+                    <input [(ngModel)]="selectedHero.name" placeholder="name"/>
+                  </label>
+                </div>
+
+              </div> -->
+
+            <!-- <ion-item>
                 <ion-thumbnail>
                     <img src="/assets/character-sexy-cop.svg" alt="">
                 </ion-thumbnail>
                 <ion-label>Candy McLean</ion-label>
             </ion-item>
+
             <ion-item>
                 <ion-thumbnail>
                     <img src="/assets/character-mobster.svg" alt="">
@@ -33,7 +57,7 @@
                     <img src="/assets/character-napoleon.svg" alt="">
                 </ion-thumbnail>
                 <ion-label>Napoleon Smith</ion-label>
-            </ion-item>
+            </ion-item> -->
         </ion-list>
     </ion-content>
 </ion-content>
